@@ -1148,15 +1148,50 @@ for now but I might use them later if I put in pictures */
 
 /* Styling the about.html section */
 
-#mendStudio .container{
+#mendStudio .container {}
 
-}
-
-#mendStudio .container p .bld{
+#mendStudio .container p .bld {
     font-weight: 700;
 }
 
+/* Styling the contact.html section */
 
+.contactPage {
+    margin-top: 4rem;
+}
+
+.contactPage h4 {
+    font-weight: 900;
+    font-size: large;
+}
+
+.contactPage label {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 900;
+    color: var(--light-color);
+}
+
+
+.contactPage .form-control {
+    height: 2.5rem;
+}
+
+.contactPage span {
+    color: red;
+}
+
+.contactPage .message {
+    height: 15rem;
+}
+
+.contactPage button {
+    margin-top: 4rem;
+    background-color: #222;
+    color: #fff;
+    height: 3.5rem;
+    width: 7rem;
+}
 
 
 
@@ -1537,6 +1572,14 @@ for now but I might use them later if I put in pictures */
     .dudesProfile .container {
         width: 80%;
     }
+
+    /* The contact.html */
+
+    .contactPage h4 {
+        font-weight: 900;
+        font-size: 1rem;
+    }
+
 }
 
 /* media query for the scroll up button */
