@@ -1146,8 +1146,15 @@ for now but I might use them later if I put in pictures */
 }
 
 
+/* Styling the about.html section */
 
+#mendStudio .container{
 
+}
+
+#mendStudio .container p .bld{
+    font-weight: 700;
+}
 
 
 
