@@ -740,7 +740,7 @@ for now but I might use them later if I put in pictures */
     color: var(--light-color);
 }
 
-.fa-chevron-right{
+.fa-chevron-right {
     font-size: 0.6rem;
 }
 
@@ -1043,7 +1043,7 @@ for now but I might use them later if I put in pictures */
 }
 
 .add-cart {
-    
+
     position: absolute;
     bottom: 0;
     right: 0;
@@ -1086,23 +1086,101 @@ for now but I might use them later if I put in pictures */
 
 }
 
-#info span{
+#info span {
     color: red;
 }
 
-#info p .fas{
+#info p .fas {
     margin-right: 1.5rem;
     color: blue;
     font-size: 1.8rem;
     margin-top: 0.1rem;
 }
 
-.bx-shopping-bag{
+.bx-shopping-bag {
     background: var(--red-color);
     color: #fff;
     padding: 10px;
     cursor: pointer;
 }
+
+
+
+/* Styling the dj's and oap's.html section */
+
+#title {
+
+    height: 7rem;
+}
+
+#title .head2 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.dudesProfile {
+    margin-top: 6rem;
+}
+
+.dudesProfile .container p {
+    text-align: center;
+
+}
+
+.dudesProfile .container h6 {
+    color: var(--red-color);
+    margin-left: 1rem;
+    margin-top: -6rem;
+    margin-bottom: 9.5rem;
+}
+
+.dudesProfile .container img:hover {
+    cursor: pointer;
+}
+
+.dudesProfile .container h2 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: -8rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1418,9 +1496,10 @@ for now but I might use them later if I put in pictures */
     #info p {
         font-size: 1rem;
         font-weight: 900;
-        
+
     }
-    #info p .fas{
+
+    #info p .fas {
         margin-right: 1.5rem;
         margin-top: 0.2rem;
     }
@@ -1432,6 +1511,25 @@ for now but I might use them later if I put in pictures */
     }
 
 
+    .dudesProfile .container h6 {
+        color: var(--red-color);
+        margin-left: 1rem;
+        margin-top: -8rem;
+        margin-bottom: 15rem;
+    }
+
+    .dudesProfile .container h2 {
+        font-size: 1.2rem;
+        color: #fff;
+        margin-top: -11rem;
+        text-align: center;
+    }
+
+
+
+    .dudesProfile .container {
+        width: 80%;
+    }
 }
 
 /* media query for the scroll up button */
