@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90.7 Mend-FM</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery-3.6.0.js"></script>
+
+
+    <!-- Font aweseome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- All of this is for the sidebar navigation panel  -->
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <h3>Welcome to <span class="altColor">90.7</span> Mend FM</h3>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shows.html">Shows</a></li>
+                <li><a href="./djs-oaps.html">Dj's and Oap's</a></li>
+                <li><a href="./mend-rate-card.html">Mend Rate-Card</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- The picture of open nav  -->
+    <div id="menuBtn">
+        <img src="./img/menu.png" alt="menu button" id="menu">
+    </div>
+
+    <!-- The scroll up button section begins  -->
+
+    <a id="button">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+
+    <!-- The scroll up button section ends  -->
+
+
+    <!-- the side navigation area   for the radio website starts-->
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px"
+
+        menuBtn.onclick = function () {
+
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                // The picture of close button nav
+                menu.src = "./img/close.png";
+            }
+            else {
+                sideNav.style.right = "-250px";
+                menu.src = "./img/menu.png";
+            }
+
+        } 
+    </script>
+
+
+    <!-- the side navigation area   for the radio website ends-->
+
+
+    <!-- The show coming next starts  -->
+
+
+    <div id="upcomingShowsPage">
+        <div class="head2">
+            <h3> <span>Upcoming</span></h3>
+        </div>
+
+        <h2>MEND FM GOSPEL</h2>
+        <h6>Bukkie</h6>
+        <div class="share">
+            <a href="https://www.instagram.com/emmanuel.9944/" class="fa-brands fa-facebook-f"></a>
+            <a href="https://www.instagram.com/emmanuel.9944/" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/emmanuel.9944/" class="fab fa-instagram"></a>
+            <a href="https://www.instagram.com/emmanuel.9944/" class="fa-brands fa-linkedin-in"></a>
+
+            <a href="https://www.instagram.com/emmanuel.9944/" class="fa-brands fa-snapchat"></a>
+        </div>
+        <p>7am <i class="fas fa-arrow-right"></i> 10am</p>
+    </div>
+
+
+
+    <!-- The show coming next ends  -->
+
+    <!-- The sunday shows section starts  -->
+
+
+    
+    <div id="showsCalendar">
+
+        <div class="head">
+            <h3> Don't<span>Miss a single</span>Show</h3>
+        </div>
+        <div class="calendarButton container">
+            <h3 class="days">Our Sunday Shows</h3>
+
+        </div>
+        <div class="slider">
+            <div class="slider-wrapper">
+                <div class="sliderMonday">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                <img src="./img/16.jpeg" width="100%" height="200px" class="img-responsive rounded"
+                                    alt="">
+                                <h1 class="sliderTitle">Talk to Joshua</h1>
+                                <hr>
+                                <h2>12:00 <span>am</span> <span class="day">MONDAY</span></h2>
+                            </div> <br>
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                <img src="./img/16.jpeg" width="100%" height="200px" class="img-responsive rounded"
+                                    alt="">
+                                <h1 class="sliderTitle">mend Motivate</h1>
+                                <hr>
+                                <h2>4:00 <span>am</span> <span class="day">MONDAY</span></h2>
+                            </div> <br>
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                <img src="./img/16.jpeg" width="100%" height="200px" class="img-responsive rounded"
+                                    alt="">
+                                <h1 class="sliderTitle">Mend breakfast</h1>
+                                <hr>
+                                <h2>5:00 <span>am</span> <span class="day">MONDAY</span></h2>
+                            </div> <br>
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                <img src="./img/16.jpeg" width="100%" height="200px" class="img-responsive rounded"
+                                    alt="">
+                                <h1 class="sliderTitle">Mend Hitzz Music</h1>
+                                <hr>
+                                <h2>10:00 <span>am</span> <span class="day">MONDAY</span></h2>
+                            </div> <br>
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                <img src="./img/16.jpeg" width="100%" height="200px" class="img-responsive rounded"
+                                    alt="">
+                                <h1 class="sliderTitle">Parole on vibezz</h1>
+                                <hr>
+                                <h2>2:00 <span>pm</span> <span class="day">MONDAY</span></h2>
+                            </div>
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                <img src="./img/16.jpeg" width="100%" height="200px" class="img-responsive rounded"
+                                    alt="">
+                                <h1 class="sliderTitle">Mend Lounge</h1>
+                                <hr>
+                                <h2>6:00 <span>pm</span> <span class="day">MONDAY</span></h2>
+                            </div> <br>
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                <img src="./img/16.jpeg" width="100%" height="200px" class="img-responsive rounded"
+                                    alt="">
+                                <h1 class="sliderTitle">Talk to Joshua</h1>
+                                <hr>
+                                <h2>10:00 <span>pm</span> <span class="day">MONDAY</span></h2>
+                            </div> <br>
+                            <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                                <img src="./img/16.jpeg" width="100%" height="200px" class="img-responsive rounded"
+                                    alt="">
+                                <h1 class="sliderTitle">Mend late nights</h1>
+                                <hr>
+                                <h2>3:00 <span>am</span> <span class="day">MONDAY</span></h2>
+                            </div> <br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> <br> <br>
+
+my name is Emmanuel show
+
+    
+    <!-- The sunday shows section ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- The script for the scroll up button begins -->
+    <script type="text/javascript">
+
+        var btn = $("#button");
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass("show");
+            } else {
+                btn.removeClass("show")
+            }
+        });
+
+        btn.on("click", function (e) {
+            e.preventDefault();
+            $("html, body").animate({ scrollTop: 0 }, "300");
+        });
+    </script>
+    <!-- The script for the scroll up button ends -->
+
+    <!-- The footer section starts  -->
+
+    <div id="footer" class="bg-dark">
+        <div class="logo">
+            <a href="./index.html"><img src="./img/pic-4.png" alt=""></a>
+        </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <h2>Menu</h2>
+                    <ul>
+                        <h5><a href="./index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></h5> <br>
+                        <h5><a href="./shows.html"><i class="fa-solid fa-chevron-right"></i> Shows</a></h5> <br>
+                        <h5><a href="./djs-oaps.html"><i class="fa-solid fa-chevron-right"></i> Dj's and Oap's</a></h5>
+                        <br>
+                        <h5><a href="./mend-rate-card.html"><i class="fa-solid fa-chevron-right"></i> Mend rate-card</a>
+                        </h5> <br>
+                        <h5><a href="./about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></h5> <br>
+                        <h5><a href="./contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></h5> <br>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <h2>ABOUT US</h2>
+
+                    <p>90.7 Mend FM is the one radio station you should always have checked in all day long. We bring
+                        you the hottest, best music in Lagos, in Nigeria and around the world, mixed with all the latest
+                        news, entertainment gossip, traffic reports, sport news and weather updates so you get all the
+                        information you need....<a href="./about.html">Discover more <i
+                                class="fas fa-arrow-right"></i></a></p>
+
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <h2>Contacts</h2>
+
+                    <ul>
+                        <h6><a href="./index.html"><i class="fas fa-home"></i> https://www.mend907.fm</a></h6>
+                        <h6><a href="tel:+234-9012857304"><i class="fas fa-phone"></i> +234 (0) 901 285 7304 | +234 (0)
+                                901 285 7304 | +234 (0) 811 599 3636</a></h6>
+                        <h6><a href="https://goo.gl/maps/U32atXzqBhPAm6tG6"><i class="fa-solid fa-location-dot"></i> 10
+                                Oke-Aro road Agbado, Ogun</a></h6>
+                        <h6><a href="https://www.instagram.com/emmanuel.9944/"><i class="fab fa-instagram"></i>
+                                Instagram Page @MendFM</a></h6>
+                    </ul>
+
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <h2>Newsletter</h2>
+                    <ul>
+                        <p>Subscribe For Latest Updates</p>
+                        <input type="email" placeholder="Your email" class="email"> <br>
+                        <input type="submit" value="Subscribe" class="btn"> <br>
+                        <img src="./img/payment.png" class="payment-img" alt="credit cars">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="credit"> <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xs-8 col-sm-8 col-lg-8">
+                    <p>Created By Mojiboye Emmanuel Oluwole | All Rights Reserved |
+                        ©2022</p>
+                    <h6><a href="./index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></h6>
+                    <h6><a href="./shows.html"><i class="fa-solid fa-chevron-right"></i> Shows</a></h6>
+                    <h6><a href="./djs-oaps.html"><i class="fa-solid fa-chevron-right"></i> Dj's and Oap's</a></h6>
+                    <h6><a href="./mend-rate-card.html"><i class="fa-solid fa-chevron-right"></i> Mend rate-card</a>
+                    </h6>
+                    <h6><a href="./about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></h6>
+                    <h6> <a href="./contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></h6>
+
+                </div>
+                <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+                    <div class="share">
+                        <a href="https://www.instagram.com/emmanuel.9944/" class="fab fa-facebook-f"></a>
+                        <a href="https://www.instagram.com/emmanuel.9944/" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/emmanuel.9944/" class="fab fa-instagram"></a>
+                        <a href="https://www.instagram.com/emmanuel.9944/" class="fab fa-linkedin"></a>
+                        <a href="https://www.instagram.com/emmanuel.9944/" class="fa-brands fa-snapchat"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The footer section ends  -->
+
+
+
+    <script src="./js/scripts.js"></script>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
