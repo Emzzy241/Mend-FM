@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,8 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/jquery-3.6.0.js"></script>
 
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Font aweseome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -28,6 +31,24 @@
                 <li><a href="./mend-rate-card.html">Mend Rate-Card</a></li>
                 <li><a href="./about.html">About Us</a></li>
                 <li><a href="./contact.html">Contact Us</a></li>
+                <!-- Cart -->
+                <div class="cart">
+                    <h2 class="cart-title">Your Cart</h2>
+                    <!-- Content -->
+                    <div class="cart-content">
+
+                    </div>
+                    <!-- Total -->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">₦</div>
+                    </div>
+                    <!-- Buy Button -->
+                    <button type="button" class="btn-buy"><span><a href="https://www.instagram.com/emmanuel.9944/">Buy
+                                Now</a></span></button>
+                    <!-- Cart Close -->
+                    <i class="bx bx-x" id="close-cart"></i>
+                </div>
             </ul>
         </nav>
     </div>
@@ -46,7 +67,7 @@
 
     <!-- The scroll up button section ends  -->
 
-    
+
     <!-- the side navigation area   for the radio website starts-->
 
     <script>
@@ -74,7 +95,244 @@
 
     <!-- the side navigation area   for the radio website ends-->
 
-    
+
+
+
+    <div id="shop">
+        <div class="shop bg-light"> <br>
+            <h4>MEND RATE-CARD</h4>
+        </div>
+    </div>
+
+    <!-- The shop indicator section ends  -->
+
+
+
+    <!-- The info section starts  -->
+
+    <div id="info">
+        <div class="info container rounded"> <br>
+            <p><i class="fas fa-info-circle"></i> Click on the service cart to add service to your cart for Payment</p>
+        </div>
+    </div>
+
+
+    <!-- The info section ends  -->
+
+    <!-- The Products section starts  -->
+
+
+
+    <section id="products" class="products">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+
+
+                    <div class="productTalk">
+                        <a href=""><img src="./img/15.jpeg" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">First advert section</h4>
+                        <p>ADVERT</p>
+                        <hr>
+                        <h6 class="price">₦250000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/2.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">My Content on Story</h4>
+                        <p>ADVERT</p>
+                        <hr>
+                        <h6 class="price">₦150000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/3.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Insta Story</h4>
+                        <p>ADVERT</p>
+                        <hr>
+                        <h6 class="price">₦40000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/4.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">My Video/Picture Content on <br> Page</h4>
+                        <p>ADVERT</p>
+                        <hr>
+                        <h6 class="price">₦370000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/aPostWearing.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">A Post wearing any of your <br> Products</h4>
+                        <p>ADVERT,INFLUENCING</p>
+                        <hr>
+                        <h6 class="price">₦100000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/campaign.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Campaign Shoot(Video/Photo)</h4>
+                        <p>INFLUENCING</p>
+                        <hr>
+                        <h6 class="price">₦500000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/snapStory.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Snap Story Advert</h4>
+                        <p>ADVERT</p>
+                        <hr>
+                        <h6 class="price">₦30000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/snapChatMonth.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Snapchat 1 month influencing <br> (First Package)</h4>
+                        <p>ADVERT</p>
+                        <hr>
+                        <h6 class="price">₦700000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/twitter1Week.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Twitter 1 week </h4>
+                        <p>ADVERT,INFLUENCING,PROMOTION</p>
+                        <hr>
+                        <h6 class="price">₦100000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/Twitter(2-3).png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Twitter 1 day(2-3 tweets)</h4>
+                        <p>ADVERT,INFLUENCING,PROMOTION</p>
+                        <hr>
+                        <h6 class="price">₦24000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/1MonthInfluencing.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">1 Month Influencing Package</h4>
+                        <p>INFLUENCING</p>
+                        <hr>
+                        <h6 class="price">₦750000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/snapChatMonth.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Snapchat 1 month influencing <br>(Second Package)</h4>
+                        <p>ADVERT</p>
+                        <hr>
+                        <h6 class="price">₦650000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/aMonthMusicPromo.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">A month Music Promotion</h4>
+                        <p>PROMOTION</p>
+                        <hr>
+                        <h6 class="price">₦1200000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/musicPromoTiktok.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Music Promotion(TikTok)</h4>
+                        <p>PROMOTION</p>
+                        <hr>
+                        <h6 class="price">₦80000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/musicPromoTriller.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Music Promotion(Triller)</h4>
+                        <p>PROMOTION</p>
+                        <hr>
+                        <h6 class="price">₦50000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-3 col-sm-3 col-lg-3">
+                    <div class="productTalk">
+                        <a href=""><img src="./img/musicPromoInsta.png" alt="Products" width="100%" height="300px"
+                                class="product-img"></a>
+                        <h4 class="product-title">Music Promotion(Instagram)</h4>
+                        <p>PROMOTION</p>
+                        <hr>
+                        <h6 class="price">₦350000.00</h6>
+                        <span></span>
+                        <i class="bx bx-shopping-bag add-cart" id="cart-icon"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- The Products section ends  -->
 
 
 
@@ -124,10 +382,8 @@
 
 
 
-
-
-      <!-- The script for the scroll up button begins -->
-      <script type="text/javascript">
+    <!-- The script for the scroll up button begins -->
+    <script type="text/javascript">
 
         var btn = $("#button");
         $(window).scroll(function () {
@@ -159,8 +415,10 @@
                     <ul>
                         <h5><a href="./index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></h5> <br>
                         <h5><a href="./shows.html"><i class="fa-solid fa-chevron-right"></i> Shows</a></h5> <br>
-                        <h5><a href="./djs-oaps.html"><i class="fa-solid fa-chevron-right"></i> Dj's and Oap's</a></h5> <br>
-                        <h5><a href="./mend-rate-card.html"><i class="fa-solid fa-chevron-right"></i> Mend rate-card</a></h5> <br>
+                        <h5><a href="./djs-oaps.html"><i class="fa-solid fa-chevron-right"></i> Dj's and Oap's</a></h5>
+                        <br>
+                        <h5><a href="./mend-rate-card.html"><i class="fa-solid fa-chevron-right"></i> Mend rate-card</a>
+                        </h5> <br>
                         <h5><a href="./about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></h5> <br>
                         <h5><a href="./contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></h5> <br>
 
@@ -213,10 +471,11 @@
                     <h6><a href="./index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></h6>
                     <h6><a href="./shows.html"><i class="fa-solid fa-chevron-right"></i> Shows</a></h6>
                     <h6><a href="./djs-oaps.html"><i class="fa-solid fa-chevron-right"></i> Dj's and Oap's</a></h6>
-                    <h6><a href="./mend-rate-card.html"><i class="fa-solid fa-chevron-right"></i> Mend rate-card</a> </h6>
+                    <h6><a href="./mend-rate-card.html"><i class="fa-solid fa-chevron-right"></i> Mend rate-card</a>
+                    </h6>
                     <h6><a href="./about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></h6>
                     <h6> <a href="./contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></h6>
-            
+
                 </div>
                 <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
                     <div class="share">
@@ -234,10 +493,11 @@
 
 
 
-    
+
     <script src="./js/scripts.js"></script>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
