@@ -371,11 +371,26 @@ for now but I might use them later if I put in pictures */
 
 .video-section {
     margin-top: 2rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../img/head.jpg);
+    background-image: url(../img/newPeterObi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
     width: 100%;
     text-align: center;
     color: #fff;
+    object-fit: contain;
+}
+
+.video-section2 {
+    margin-top: 2rem;
+    background-image: url(../img/bbnaija.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    object-fit: contain;
 }
 
 /* Styling the featured Posts section  */
