@@ -273,7 +273,7 @@ for now but I might use them later if I put in pictures */
 
 .feature-one {
     margin-top: 2rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../img/head.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../img/loveRAdio.webp);
     height: 200px;
     width: 100%;
     text-align: center;
@@ -291,6 +291,54 @@ for now but I might use them later if I put in pictures */
 
 
 .feature-one:hover {
+    cursor: pointer;
+}
+
+
+.feature-two {
+    margin-top: 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../img/radioHouse.jpg);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.feature-two h6 {
+    margin-top: 1.5rem;
+}
+
+.feature-two h2 {
+    font-size: 1.3rem;
+}
+
+
+
+.feature-two:hover {
+    cursor: pointer;
+}
+
+
+.feature-three {
+    margin-top: 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../img/radioStation.jpg);
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.feature-three h6 {
+    margin-top: 1.5rem;
+}
+
+.feature-three h2 {
+    font-size: 1.3rem;
+}
+
+
+
+.feature-three:hover {
     cursor: pointer;
 }
 
