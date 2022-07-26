@@ -1,4 +1,4 @@
-# Jay Influence
+# 90.7 MEND FM
 
 #### Made by Mojiboye Emmanuel
 
