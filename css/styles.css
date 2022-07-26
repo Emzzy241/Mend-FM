@@ -383,7 +383,7 @@ for now but I might use them later if I put in pictures */
 
 .video-section2 {
     margin-top: 2rem;
-    background-image: url(../img/bbnaija.webp);
+    background-image: url(../img/Bbn.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -411,7 +411,7 @@ for now but I might use them later if I put in pictures */
 }
 
 .post-one {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../img/15.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.9)), url(../img/adaAmeh.webp);
     height: 400px;
     width: 100%;
     text-align: center;
@@ -427,12 +427,14 @@ for now but I might use them later if I put in pictures */
 
 
 .post-two {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../img/15.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.9)), url(../img/davido2.webp);
     height: 400px;
     width: 100%;
     text-align: center;
     color: #fff;
     margin-top: 2rem;
+    object-fit: contain;
+    background-size: cover;
 }
 
 .post-two h2 {
@@ -443,7 +445,8 @@ for now but I might use them later if I put in pictures */
 
 
 .post-three {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../img/15.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.9)), url(../img/Bbn.webp);
+    background-size: cover;
     height: 400px;
     width: 100%;
     text-align: center;
