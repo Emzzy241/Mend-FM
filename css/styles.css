@@ -526,9 +526,9 @@ for now but I might use them later if I put in pictures */
 /* Styling the mend world chart section */
 
 #chart {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../img/head.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.9)), url(../img/radioStation.jpg);
     width: 100%;
-    height: 90vh;
+    height: 93vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
