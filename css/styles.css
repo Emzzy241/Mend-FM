@@ -93,14 +93,15 @@ nav ul li a:hover {
 /*  styling the logo section
  */
 
-.banner a i {
-    margin-top: 0.5rem;
-    font-size: 1.8rem;
-    color: var(--light-red-color);
-}
-
-.banner a i span {
-    font-size: 1rem;
+ .banner a{
+     color: var(--red-color);
+    font-size: 1.9rem;
+    text-decoration: none;
+   
+ }
+.banner a img {
+    height: 7rem;
+    width: 8%;
 }
 
 /* Styling the top ad */
@@ -1276,6 +1277,12 @@ for now but I might use them later if I put in pictures */
     .heading {
         font-size: 2.5rem;
     }
+    /* Styling the logo */
+    
+.banner a img {
+    height: 7rem;
+    width: 18%;
+}
 
 
     .feature-one h6 {
